@@ -1,0 +1,572 @@
+
+/*VERSION PARA MOBILE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap');
+
+*{ 
+    box-sizing: border-box; 
+    border: 0px; 
+    padding: 0px;
+    margin:0px;
+}
+
+body { 
+   
+    background-color: rgb(104, 248, 236); 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 300vh;    
+   
+    
+}
+ 
+
+
+
+header.container{
+    max-width: 1400PX;
+    
+}
+
+
+header{
+    background-color: rgb(247, 246, 246);
+    
+}   
+ 
+
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+header a{
+    padding: 8px 22px;
+   
+}
+
+
+
+
+/*Buscador*/
+
+.buscar{
+    display: flex;
+    background-color: rgb(244, 248, 248);
+    width: 100%;
+    padding: 0px 12px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border: #474747 solid 1px;
+    
+}
+
+.buscar_texto{ 
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(170, 169, 169);
+    font-size: 18px;
+    float: left;
+    line-height: 40px;
+    margin: 0px 20px;
+    width: 100%;
+   
+}
+
+.boton{
+   
+    height: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+/*boton menu animado*/
+
+
+
+/*navegador   background-color: rgb(247, 246, 246);
+    color: blueviolet;
+    width: 400px;
+    height: 60vh;
+    position: absolute;
+    top:0;
+    left:0;
+    justify-content: space-around;  
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:normal;
+    transition: all .5s ease;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 1px;*/
+
+header .ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color: blueviolet;
+    padding: 12px 20px;
+    justify-content: space-around;  
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+  
+
+
+ul a:hover{
+    color:rgb(223, 51, 51)
+}
+
+
+/* Fin del Header */
+
+
+ul{ 
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+ }
+
+ #Picante .img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    height: 30vh;
+    background-image: url("Picante.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 0px;
+ }
+
+/* Banners de la pagina */
+
+
+#hero h1{
+    color:  white;
+    font-size: 40px;
+    padding-top: 40px ;
+    text-shadow: 1px 1px black;
+   
+}
+
+
+#hero h3{ 
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+}
+
+#hero{ 
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#hero .container{
+    justify-content: center;
+ 
+}
+
+
+#articulos .container{ 
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    background-position: center ;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 30px;
+    background-image: url("Articulo.jpg");
+    box-shadow: 1px 2px 3px rgb(0,0,0,3);
+    
+}
+
+
+
+#articulos h1{
+     color: aliceblue;
+     text-align: center;
+     font-size: 40px;
+     padding-top: 60px;
+     text-shadow: 1px 2px black;
+}
+
+#articulos p{
+    color: aliceblue;
+    font-size: x-large;
+    font-size: 1.2em;
+    padding: 0px 2px;
+    text-shadow: 1px 2px black;
+}
+
+#hero .container{
+    padding: 100px 0px;
+}
+
+#hero .carta{
+   
+    background-size: cover;
+    background-position: center ;
+    padding: 90px;
+    margin: 30px;
+    width: auto;
+    border-radius: 18px;
+    box-shadow: 1px 1px 4px rgb(0,0,0,3);
+
+}
+
+.carta:first-child{
+    
+background-image: url("Indumentaria.jpg");
+background-repeat: no-repeat;
+
+}
+
+
+.carta:nth-child(2){ 
+ 
+    background-image: url("moises.jpg");
+    background-repeat: no-repeat;
+  
+}
+
+.carta:nth-child(3){
+    background-image: url("juguetegato.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+/*Botones*/
+
+button{ 
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(32, 32, 32,0.5);
+    box-shadow: 2px 2x 10px rgb(32, 32, 32,0.5);
+    color:  rgb(255, 254, 254);
+    font-style: italic;
+    background-color: rgb(7, 247, 247);
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+
+
+/*pie de pagina (footer)*/
+
+ footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(229, 233, 238);
+}
+
+footer a{
+    color: blueviolet;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+
+.pie-pagina .grupo-1{
+ 
+    color: rgb(145, 49, 235);
+    display: grid;
+    /* grid-template-columns: repeat(3, 8fr); para version deskop*/
+    margin: 20px;
+    line-height: 10px;
+  
+}
+
+
+.pie-pagina h2{
+    display:flex;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    
+}
+
+
+
+.pie-pagina .grupo-1 li{
+    
+    margin-bottom: 28px;
+    font-size: 16px;
+
+}
+
+.pie-pagina .grupo-1 .contacto a{
+    color: rgb(127, 9, 238);
+}
+
+
+
+.pie-pagina .grupo-1 a:hover{
+    color:rgb(250, 26, 26)
+}
+
+
+
+.grupo-2{
+   
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    padding: 6px 0px;
+}
+
+.pie-pagina .grupo-1 .red-social i{
+     width: 40px;
+     height: 40px;
+     margin: 0px 10px 10px 0px;
+     letter-spacing: 4px;
+     line-height: 10px;
+     font-size: 25px;
+     text-align: center;
+     border: 30px;
+     
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #1beb1d;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgb(0,0,0,3);
+    z-index: 80;
+}
+
+.btn-wsp:hover{
+text-decoration: none;
+background-color: white;
+color: #1beb1d;
+}
+
+  
+/*=======Responsive=======*/
+
+@media (min-width:720px){
+
+   
+    header{
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    }
+
+    header.container{ 
+    flex-direction: row;
+   
+    
+}
+
+
+/*Buscador*/
+
+ .buscar{
+    display: flex;
+    position:relative;
+    background-color: rgb(244, 248, 248);
+    width:800px;
+    margin: auto;
+    padding: 0px 18px;
+    border-radius: 40px;
+    border: #474747 solid 1px;
+    
+}
+
+
+
+.buscar_texto{ 
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(170, 169, 169);
+    font-size: 18px;
+    float: left;
+    line-height: 40px;
+    margin: 0px 20px;
+    width: 100%;
+   
+}
+
+.boton{
+   
+    height: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+ 
+  /*navegador*/
+header .ul{ 
+    flex-direction: row;
+    padding-inline-start: 40px,
+
+}
+
+
+#hero.img-container{
+    display: flex;
+    position: relative;
+    
+  
+    
+}
+
+/*navegador*/
+header .ul{
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    color: blueviolet;
+    padding: 12px 20px;
+    justify-content: space-around;  
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+ul a:hover{
+    color:rgb(223, 51, 51)
+}
+
+
+
+
+
+/* Banners de la pagina */
+
+
+  
+#hero .container .Banners{
+    display: flex;
+    justify-content: center;
+    transition: .5s ease;
+}
+
+ .carta{
+   object-fit: cover;
+   width: 600px;
+   height: 400px;
+}
+
+.carta h3{
+    font-size: 40px;
+    height: 150px;
+    padding-top: 0px 20px;
+    margin-top: 0px;
+}
+
+#hero .container h1{
+    padding: 18px;
+    margin-bottom: 0px;
+}
+
+.carta:hover{
+    cursor: crosshair;
+    height: 450px;
+    fill-opacity: 120%;
+}
+
+
+/*Arituculos*/
+#articulos .container{
+
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    height: 400px;
+    
+}
+
+#articulos h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#articulos p{
+    padding-top: 40px;
+}
+
+#articulos button{
+    margin-top: 100px;
+}
+
+
+#picante .img-container{
+    display: flex;
+    object-fit: cover;
+}
+
+
+/*footer*/
+footer{
+    display:flex;
+    margin: 0px;
+}
+
+
+.pie-pagina .grupo-1 h2{
+   padding-bottom: 12px;
+    margin-block-start: 1.63em;
+    margin-block-end: 1.63em;
+}
+
+
+
+.pie-pagina .grupo-1{
+  
+   grid-template-columns: repeat(3, 10fr); 
+   padding: 30px 0px;
+}
+
+
+.pie-pagina .grupo-1 .red-social i{
+
+    letter-spacing: 12px;
+
+}
+
+
+.grupo-2{
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+
+
+}
